@@ -1,3 +1,12 @@
+print(f'''
+ _____         _     _          __  __                        ____          _      
+|_   _|____  _| |_  | |_ ___   |  \/  | ___  _ __ ___  ___   / ___|___   __| | ___ 
+  | |/ _ \ \/ / __| | __/ _ \  | |\/| |/ _ \| '__/ __|/ _ \ | |   / _ \ / _` |/ _ \ 
+  | |  __/>  <| |_  | || (_) | | |  | | (_) | |  \__ \  __/ | |__| (_) | (_| |  __/
+  |_|\___/_/\_\\__|   \__\___/  |_|  |_|\___/|_|  |___/\___|  \____\___/ \__,_|\___|
+''')
+print('Hello there!')
+
 #dictionary representing the morse code chart
 morse_code_dict = { 'A':'.-', 'B':'-...',
                     'C':'-.-.', 'D':'-..', 'E':'.',
@@ -30,3 +39,4 @@ def to_morse_code(text):
 
 morse_code = to_morse_code(input('Write a sentence to transform in Morse Code: '))
 print(f'The result is: {morse_code}')
+
